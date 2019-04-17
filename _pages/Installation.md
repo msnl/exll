@@ -23,10 +23,13 @@ Download links are:
   - Downliad Nexus 5X image and tools at Ubuntu PC using upper link and connect Nexus 5X device via USB.
   - Flash Nexus 5X image.
   
-    `# adb reboot-bootloader\n`
-    `# fastboot oem unlock\n`
-    `# cd /your-path/bullhead-opm2.171019.029/\n`
-    `# ./flash-all.sh\n`
+    `# adb reboot-bootloader`
+    
+    `# fastboot oem unlock`
+    
+    `# cd /your-path/bullhead-opm2.171019.029/`
+    
+    `# ./flash-all.sh`
     
     \#
 
