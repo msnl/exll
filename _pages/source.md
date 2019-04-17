@@ -1,6 +1,6 @@
 ---
 layout: content
-title: Source
+title: Source Code
 permalink: /source/
 ---
 Hi, I'm Johnny and I live in the Shire. Thanks for visiting my site.
