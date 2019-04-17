@@ -1,5 +1,8 @@
 # Site settings
-title: "Paper Jekyll Theme"
+
+remote_theme : mkchoi212/paper-jekyll-theme
+
+title: "ExLL: an extremely low-latency congestion control for mobile cellular networks"
 description: > 
   Write a description of your website here.
 author: Shinik Park
