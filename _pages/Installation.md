@@ -24,13 +24,11 @@ Download links are:
   - Flash Nexus 5X image.
   
     `# adb reboot-bootloader
-    
     `# fastboot oem unlock
-    
     `# cd /your-path/bullhead-opm2.171019.029/
-    
     `# ./flash-all.sh
 
 # Execution Guide
+
 - 
 
