@@ -13,28 +13,20 @@ comments: true
 
 ![Sender-based ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview_sender.PNG)
 
-## Features
+# Features
 - ExLL congestion control can be implemented at both of sender-side and receiver-side. (We first provide receiver-side ExLL implementation)
 - Receiver-side ExLL can be deployed without touching sender-side device. (Easy Deployment)
 - Cellular bandwidth inference from the downlink packet reception pattern.
 - Minimum RTT calibration from the inference on the uplink scheduling interval.
 
-## Performance
+# Performance
 
 ![Static Performance](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Static.PNG)
 
+RTT and throughput performance comparison between ExLL and other protocols. ExLL outperforms other low-latency protocols and operates very closely to the ideal performance characterized by sending 1.0×BDP of the network.
+
+
 ![Mobile Performance](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Mobile.PNG)
 
+RTT and throughput performance comparison between ExLL and other protocols in a mobile channel. ExLL shows nearly 20 ms less RTT compared to BBR while getting throughput as much as Cubic.
 
-
-
-# Licnese
-The MIT License (MIT)
-
-Copyright (c) 2017 Mike JS. Choi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
