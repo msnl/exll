@@ -20,10 +20,13 @@ Download links are:
  
   - Download & Install Ubuntu 16.04 LTS .iso file at http://www.ubuntu.com/download/desktop.  
  
+ #
   - Install sender application using upper link and compile.  
  
+ #
   - Sender-side preparation is done.  
  
+ #
  
 2. Nexus 5X Receiver  
  
