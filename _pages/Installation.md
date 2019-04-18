@@ -14,13 +14,18 @@ Download links are:
 - [Receiver application]()
 
 # Installation Guide
-1. Ubuntu Server
+
+
+
+1. Ubuntu Sender
 
   - Download & Install Ubuntu 16.04 LTS .iso file at http://www.ubuntu.com/download/desktop
   
   - Install sender application using upper link and compile.
   
-  - Server-side preparation is done.
+  - Sender-side preparation is done.
+  
+  
   
 2. Nexus 5X Receiver
 
@@ -57,5 +62,13 @@ Download links are:
     
 # Execution Guide
 
-  - 
+
+
+1. Ubuntu Sender
+
+  - Execute shell script at sender-side.
+  
+    `# ./start.sh`
+    
+    
 
