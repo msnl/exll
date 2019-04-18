@@ -7,7 +7,9 @@ tags: ExLL
 comments: true
 ---
 
-![ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview.PNG)
+![Receiver-based ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview_receiver.PNG)
+
+![Sender-based ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview_sender.PNG)
 
 Paper is a minimal Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. The styling is purposely minimalistic so that you can add your own flare to the website.
 
