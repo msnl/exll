@@ -57,9 +57,10 @@ Download links are:
   
     ```
     # adb push SR5-SuperSU-v2.82-SR5-20171001224502.zip /sdcard/
-    Install SuperSU in your device through recovery and reboot
     ```  
- 
+    
+  - Install SuperSU in your device through recovery and reboot.  
+  
   - Install receiver application using apk file.  
  
   - Receiver-side preparation is done.  
