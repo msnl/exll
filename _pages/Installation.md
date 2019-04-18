@@ -12,7 +12,7 @@ Download links are:
   (includes twrp and SuperSU)  
 - [Sender application]()  
 - [Receiver application]()  
- 
+   
 # Installation Guide  
  
  
@@ -30,7 +30,8 @@ Download links are:
   - Downliad Nexus 5X image and tools at Ubuntu PC using upper link and connect Nexus 5X device via USB.  
  
   - Flash Nexus 5X image.  
- 
+  
+  
     ```
     # adb reboot-bootloader
     # fastboot oem unlock
@@ -40,6 +41,7 @@ Download links are:
  
   - Install twrp recovery.  
  
+  
     ```
     # adb reboot-bootloader    
     # fastboot flash recovery twrp-3.2.1-0-bullhead.img
@@ -49,6 +51,7 @@ Download links are:
   
   - Give Nexus 5X a root privilege.  
  
+  
     ```
     # adb push SR5-SuperSU-v2.82-SR5-20171001224502.zip /sdcard/
     Install SuperSU in your device through recovery and reboot
@@ -73,7 +76,7 @@ Download links are:
  
 2. Nexus 5X Receiver  
  
-  - Launch receiving application. 
+  - Launch receiving application.  
  
   - Set ExLL related parameters.  
  
