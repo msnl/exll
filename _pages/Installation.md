@@ -12,25 +12,25 @@ Download links are:
   (includes twrp and SuperSU)
 - [Sender application]()
 - [Receiver application]()
- </br>
+ <br>
 # Installation Guide
- </br>
- </br>
+ <br>
+ <br>
 1. Ubuntu Sender
-</br>
+<br>
   - Download & Install Ubuntu 16.04 LTS .iso file at http://www.ubuntu.com/download/desktop
-</br>  
+<br>  
   - Install sender application using upper link and compile.
-</br>  
+<br>  
   - Sender-side preparation is done.
-</br>  
-</br>    
+<br>  
+<br>    
 2. Nexus 5X Receiver
-</br>
+<br>
   - Downliad Nexus 5X image and tools at Ubuntu PC using upper link and connect Nexus 5X device via USB.
-</br>  
+<br>  
   - Flash Nexus 5X image.
-</br>
+<br>
 ```
     # adb reboot-bootloader
     
@@ -40,53 +40,53 @@ Download links are:
   
     # ./flash-all.sh
 ```
-</br>    
+<br>    
   - Install twrp recovery.
-</br>  
+<br>  
     `# adb reboot-bootloader`
-</br>    
+<br>    
     `# fastboot flash recovery twrp-3.2.1-0-bullhead.img`
-</br>    
+<br>    
   - Boot Nexus 5X as recovery mode.    
-</br>    
+<br>    
   - Give Nexus 5X a root privilege.
-</br>  
+<br>  
     `# adb push SR5-SuperSU-v2.82-SR5-20171001224502.zip /sdcard/`
-</br>  
+<br>  
     `Install SuperSU in your device through recovery and reboot`
-</br>    
+<br>    
   - Install receiver application using apk file.
-</br>  
+<br>  
   - Receiver-side preparation is done.
-</br>    
-</br>    
+<br>    
+<br>    
 # Execution Guide
-</br>
-</br>
+<br>
+<br>
 1. Ubuntu Sender
-</br>
+<br>
   - Execute shell script at sender-side.
-</br>  
+<br>  
     `# ./start.sh`
-</br>    
-</br>  
+<br>    
+<br>  
 2. Nexus 5X Receiver
-</br>
+<br>
   - Launch receiving application.
-</br>  
+<br>  
   - Set ExLL related parameters.
-</br>  
+<br>  
       `alpha: constant value in ExLL control formula. In the paper, we use 100 as a default value.`
-</br>      
+<br>      
       `gamma: 10x value of parameter gamma. In the paper, we use 0.5(in the app, 5) as a default value`
-</br>      
+<br>      
       `rttmin_gain: Minimum RTT Compensation value. This value is simply added to calculated minimum RTT. Default value is 10 ms.`
-</br>      
+<br>      
       `You can activate ExLL TCP by checking TCP_ExLL checkbox.`
-</br>      
+<br>      
       `If you check Multi_Flow checkbox, you could test three flow test.`
-</br>      
+<br>      
       `AUTOMATED TEST & Uplink is currently depreciated.`
-</br>      
+<br>      
   - Push RUN ONE-TIME TEST button to test.      
-</br>
+<br>
