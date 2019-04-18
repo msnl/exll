@@ -8,10 +8,10 @@ We currently provide Nexus 5X image file applying ExLL Congestion Control patchs
 We also provide sender(Ubuntu Desktop) & receiver(Nexus 5X) application to evaluate ExLL's performance on real world LTE environment.  
  
 Download links are:
-- [Nexus 5X image and tools](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/ESL_Qysjfk1Il5jSJB2n5iMBAUhij9RmYLAdgFeQPZgAVw?e=GmXFj5)
+- [Nexus 5X image and tools](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/ESL_Qysjfk1Il5jSJB2n5iMBAUhij9RmYLAdgFeQPZgAVw?e=GmXFj5){: target="_blank" }
   (includes twrp and SuperSU)  
-- [Sender application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EfHgObOqKxBAlSNz_Oj-C-QBWHQX_GhklcG1AnJzqCZFFA?e=Yhhvlm)  
-- [Receiver application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EUqiE_IWqbxPn0CHnsXVIpUBEwLXasgxh_h3wupG_tMaOw?e=P56WUe)  
+- [Sender application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EfHgObOqKxBAlSNz_Oj-C-QBWHQX_GhklcG1AnJzqCZFFA?e=Yhhvlm){: target="_blank" }  
+- [Receiver application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EUqiE_IWqbxPn0CHnsXVIpUBEwLXasgxh_h3wupG_tMaOw?e=P56WUe){: target="_blank" }  
    
 # Installation Guide  
  
