@@ -8,10 +8,10 @@ We currently provide Nexus 5X image file applying ExLL Congestion Control patchs
 We also provide sender(Ubuntu Desktop) & receiver(Nexus 5X) application to evaluate ExLL's performance on real world LTE environment.  
  
 Download links are:
-- [Nexus 5X image and tools]()
+- [Nexus 5X image and tools](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/ESL_Qysjfk1Il5jSJB2n5iMBAUhij9RmYLAdgFeQPZgAVw?e=GmXFj5)
   (includes twrp and SuperSU)  
-- [Sender application](https://github.com/mkchoi212/paper-jekyll-theme/blob/master/README.md)  
-- [Receiver application]()  
+- [Sender application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EfHgObOqKxBAlSNz_Oj-C-QBWHQX_GhklcG1AnJzqCZFFA?e=Yhhvlm)  
+- [Receiver application](https://unistackr0-my.sharepoint.com/:u:/g/personal/sipark_unist_ac_kr1/EUqiE_IWqbxPn0CHnsXVIpUBEwLXasgxh_h3wupG_tMaOw?e=P56WUe)  
    
 # Installation Guide  
  
@@ -75,6 +75,11 @@ Download links are:
  
     ```
     # ./start.sh
+    ```  
+    
+  - After one test run, you should execute another shell script.
+    ```
+    # ./stop.sh
     ```  
   
  
