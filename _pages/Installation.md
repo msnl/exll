@@ -31,7 +31,8 @@ Download links are:
 <br>  
   - Flash Nexus 5X image.
 <br>
-```
+
+    ```
     # adb reboot-bootloader
     
     # fastboot oem unlock
@@ -39,21 +40,23 @@ Download links are:
     # cd /your-path/bullhead-opm2.171019.029/
   
     # ./flash-all.sh
-```
+    ```
 <br>    
   - Install twrp recovery.
 <br>  
-    `# adb reboot-bootloader`
-<br>    
-    `# fastboot flash recovery twrp-3.2.1-0-bullhead.img`
+    ```
+    # adb reboot-bootloader    
+    # fastboot flash recovery twrp-3.2.1-0-bullhead.img
+    ```
 <br>    
   - Boot Nexus 5X as recovery mode.    
 <br>    
   - Give Nexus 5X a root privilege.
-<br>  
-    `# adb push SR5-SuperSU-v2.82-SR5-20171001224502.zip /sdcard/`
-<br>  
-    `Install SuperSU in your device through recovery and reboot`
+<br> 
+    ```
+    # adb push SR5-SuperSU-v2.82-SR5-20171001224502.zip /sdcard/
+    Install SuperSU in your device through recovery and reboot
+    ```
 <br>    
   - Install receiver application using apk file.
 <br>  
@@ -66,8 +69,10 @@ Download links are:
 1. Ubuntu Sender
 <br>
   - Execute shell script at sender-side.
-<br>  
-    `# ./start.sh`
+<br> 
+    ```
+    # ./start.sh
+    ```
 <br>    
 <br>  
 2. Nexus 5X Receiver
