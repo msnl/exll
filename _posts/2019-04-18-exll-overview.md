@@ -7,49 +7,26 @@ tags: ExLL
 comments: true
 ---
 
+ ExLL is a new low-latency congestion control scheme which can adapt to dynamic cellular channels without overloading the network. To do so, we develop two novel techniques that run on the cellular receiver: 1) cellular bandwidth inference from the downlink packet reception pattern and 2) minimum RTT calibration from the inference on the uplink scheduling interval. Furthermore, we incorporate the control framework of FAST into ExLL’s cellular specific inference techniques. Hence, ExLL can precisely control its congestion window to not overload the network unnecessarily. Our implementation of ExLL on Android smartphones demonstrates that ExLL reduces latency much closer to the minimum RTT compared to other low-latency congestion control algorithms in both static and dynamic channels of LTE networks.
+
 ![Receiver-based ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview_receiver.PNG)
 
 ![Sender-based ExLL Design Overview](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Overview_sender.PNG)
 
-Paper is a minimal Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. The styling is purposely minimalistic so that you can add your own flare to the website.
-
-I'm currently using this theme on my [personal blog](https://www.deadbeef.me).
-
 ## Features
-- Compatible with Jekyll 3.x and Github Pages
-- Live local reloading for faster development
-- **Responsive layout** built-in
-- Supports Jekyll's built-in Sass/SCSS preprocessor
-- Supports **Google Analytics**
-- Supports **Disqus** for commenting
-- Minimum Dependencies
-- Rakefile for automation
-    - `rake check`    - Check links/html files of the generated site
-    - `rake clean`    - Clean up generated site
-    - `rake post`     - Begin a new post in `./_posts`
-    - `rake preview`  - Preview with livereload on local machine
+- ExLL congestion control can be implemented at both of sender-side and receiver-side. (We first provide receiver-side ExLL implementation)
+- Receiver-side ExLL can be deployed without touching sender-side device. (Easy Deployment)
+- Cellular bandwidth inference from the downlink packet reception pattern.
+- Minimum RTT calibration from the inference on the uplink scheduling interval.
 
-## Usage
-```
-git clone https://github.com/mkchoi212/paper-jekyll-theme.git
-bundle install
-rake preview
-```
+## Performance
 
-Then, go to your favorite brower and type in the address `http://127.0.0.1:YOUR_PORT_NUM_HERE` to preview your website.
+![Static Performance](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Static.PNG)
 
-### Customization
-To customize various details - title/description of the website, your SNS accout names, etc - edit the `_config.yml` file. 
+![Mobile Performance](https://raw.githubusercontent.com/msnl/exll/master/assets/ExLL_Mobile.PNG)
 
-### Adding posts
-```
-rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
-```
-This will create a markdown file in the default folder where all posts are stored in Jekyll; `_post`.
 
-If you wish to **change the directory where posts are saved**, go to the `Rakefile` and edit the `CONFIG = { 'posts': CUSTOM_PATH_HERE }`. This will allow `rake post` to know where to save the new posts to.
 
-The **drafts** you are working on can be saved in the `_drafts` directory. When you push your code to the server, files in this directory will NOT be included to the list o posts.
 
 # Licnese
 The MIT License (MIT)
