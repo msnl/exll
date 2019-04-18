@@ -70,5 +70,25 @@ Download links are:
   
     `# ./start.sh`
     
-    
+  
+  
+2. Nexus 5X Receiver
 
+
+  - Launch receiving application.
+  
+  - Set ExLL related parameters.
+  
+      `alpha: constant value in ExLL control formula. In the paper, we use 100 as a default value.`
+      
+      `gamma: 10x value of parameter gamma. In the paper, we use 0.5(in the app, 5) as a default value`
+      
+      `rttmin_gain: Minimum RTT Compensation value. Simply added to calculated minimum RTT. Default value is 10 ms.`
+      
+      `You can activate ExLL TCP by checking TCP_ExLL checkbox.`
+      
+      `If you check Multi_Flow checkbox, you could test three flow test.`
+      
+      `AUTOMATED TEST & Uplink is currently depreciated.`
+      
+  - Push RUN ONE-TIME TEST button to test.      
