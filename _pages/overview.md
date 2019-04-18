@@ -1,10 +1,7 @@
 ---
-layout: post
-title: "ExLL Overview"
-description: "Basic ExLL Design and it's performance"
-date: 2019-04-18
-tags: ExLL
-comments: true
+layout: content
+title: ExLL Overview
+permalink: /overview/
 ---
 
  ExLL is a new low-latency congestion control scheme which can adapt to dynamic cellular channels without overloading the network. To do so, we develop two novel techniques that run on the cellular receiver: 1) cellular bandwidth inference from the downlink packet reception pattern and 2) minimum RTT calibration from the inference on the uplink scheduling interval. Furthermore, we incorporate the control framework of FAST into ExLL’s cellular specific inference techniques. Hence, ExLL can precisely control its congestion window to not overload the network unnecessarily. Our implementation of ExLL on Android smartphones demonstrates that ExLL reduces latency much closer to the minimum RTT compared to other low-latency congestion control algorithms in both static and dynamic channels of LTE networks.
