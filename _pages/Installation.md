@@ -40,10 +40,10 @@ Download links are:
  
   - Install twrp recovery.  
  
-```
-# adb reboot-bootloader    
-# fastboot flash recovery twrp-3.2.1-0-bullhead.img
-```
+    ```
+    # adb reboot-bootloader    
+    # fastboot flash recovery twrp-3.2.1-0-bullhead.img
+    ```
   
   - Boot Nexus 5X as recovery mode.  
   
