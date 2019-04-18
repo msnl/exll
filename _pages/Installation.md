@@ -83,7 +83,7 @@ Download links are:
       
       `gamma: 10x value of parameter gamma. In the paper, we use 0.5(in the app, 5) as a default value`
       
-      `rttmin_gain: Minimum RTT Compensation value. Simply added to calculated minimum RTT. Default value is 10 ms.`
+      `rttmin_gain: Minimum RTT Compensation value. This value is simply added to calculated minimum RTT. Default value is 10 ms.`
       
       `You can activate ExLL TCP by checking TCP_ExLL checkbox.`
       
