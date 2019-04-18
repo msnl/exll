@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Quick Start Guide"
-description: "How to setup and use the blog"
-date: 2017-07-21
-tags: jekyll
+title: "ExLL Overview"
+description: "Basic ExLL Design and it's performance"
+date: 2019-04-18
+tags: ExLL
 comments: true
 ---
 
