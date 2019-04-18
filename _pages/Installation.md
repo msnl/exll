@@ -31,13 +31,15 @@ Download links are:
 </br>  
   - Flash Nexus 5X image.
 </br>
-    `# adb reboot-bootloader`
-</br>    
-    `# fastboot oem unlock`
-</br>    
-    `# cd /your-path/bullhead-opm2.171019.029/`
-</br>    
-    `# ./flash-all.sh`
+```
+    # adb reboot-bootloader
+    
+    # fastboot oem unlock
+  
+    # cd /your-path/bullhead-opm2.171019.029/
+  
+    # ./flash-all.sh
+```
 </br>    
   - Install twrp recovery.
 </br>  
