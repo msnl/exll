@@ -16,7 +16,7 @@ Download links are:
 # Installation Guide  
  
  
-1. Ubuntu Sender  
+## Ubuntu Sender  
  
   - Download & Install Ubuntu 16.04 LTS .iso file at http://www.ubuntu.com/download/desktop.  
  
@@ -28,7 +28,7 @@ Download links are:
  
   
  
-2. Nexus 5X Receiver  
+## Nexus 5X Receiver  
  
   - Downliad Nexus 5X image and tools at Ubuntu PC using upper link and connect Nexus 5X device via USB.  
  
@@ -69,7 +69,7 @@ Download links are:
 # Execution Guide  
  
  
-1. Ubuntu Sender  
+## Ubuntu Sender  
  
   - Execute shell script at sender-side.  
  
@@ -78,7 +78,7 @@ Download links are:
     ```  
   
  
-2. Nexus 5X Receiver  
+## Nexus 5X Receiver  
  
   - Launch receiving application.  
  
